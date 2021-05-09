@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "416311208615",
+    "firebase_url": "https://cali-app-7da43-default-rtdb.firebaseio.com",
+    "project_id": "cali-app-7da43",
+    "storage_bucket": "cali-app-7da43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416311208615:android:67d7b79ece17d062ef0982",
+        "android_client_info": {
+          "package_name": "my.caliappdisplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416311208615-tdphlic7qo69if2ubvdsgcsjb7l24rdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6_RXoxSlLa5REqxY2N1vJUpJH8AcVH2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416311208615-tdphlic7qo69if2ubvdsgcsjb7l24rdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

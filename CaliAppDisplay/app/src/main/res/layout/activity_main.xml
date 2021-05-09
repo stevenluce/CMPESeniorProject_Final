@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkerGray">
+
+
+        <Button
+            android:id="@+id/filterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:onClick="showFilterTapped"
+            android:text="FILTER"
+            android:textColor="@color/red"
+            android:textSize="30sp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/filterTabsLayout">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="All"
+            android:id="@+id/allFilter"
+            android:textColor="@color/red"
+            android:background="@color/darkerGray"
+            android:onClick="allFilterTapped"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Fires"
+            android:textColor="@color/red"
+            android:id="@+id/fireFilter"
+            android:background="@color/darkerGray"
+            android:onClick="fireFilterTapped"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Earthquakes"
+            android:textColor="@color/red"
+            android:id="@+id/earthquakeFilter"
+            android:background="@color/darkerGray"
+            android:onClick="earthquakeFilterTapped"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="News"
+            android:textColor="@color/red"
+            android:id="@+id/newsFilter"
+            android:background="@color/darkerGray"
+            android:onClick="newsFilterTapped"/>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

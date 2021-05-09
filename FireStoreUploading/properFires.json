@@ -1,0 +1,29 @@
+{
+	"fires":[
+  {
+    "Name": "River Fire",
+    "Final": false,
+    "Updated": "2021-04-19T20:29:35Z",
+    "Started": "2021-04-19T20:29:35Z",
+    "AdminUnit": "Sutter County Fire Department",
+    "AdminUnitUrl": null,
+    "County": "Sutter",
+    "Location": "Garden Hwy  and Star Bend Road, South of Yuba City",
+    "AcresBurned": null,
+    "PercentContained": null,
+    "ControlStatement": null,
+    "AgencyNames": "Sutter County Fire Department ",
+    "Longitude": -121.5896697,
+    "Latitude": 38.9743823,
+    "Type": "Wildfire",
+    "UniqueId": "81d9dc1d-9cff-4a22-a6c6-2a4f94cf30ed",
+    "Url": "https://www.fire.ca.gov/incidents/2021/4/19/river-fire/",
+    "ExtinguishedDate": "",
+    "ExtinguishedDateOnly": "",
+    "StartedDateOnly": "2021-04-19",
+    "IsActive": true,
+    "CalFireIncident": false,
+    "NotificationDesired": false
+  }
+ ]
+}
